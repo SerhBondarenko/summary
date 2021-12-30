@@ -1,2 +1,2 @@
-body{background-color:teal}.main{width:300px;height:200px;background-color:tomato}.main-box{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
+body{background-color:teal}.main-box{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.box{margin-right:30px}
 /*# sourceMappingURL=main.min.css.map */

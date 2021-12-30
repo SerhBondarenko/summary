@@ -2,13 +2,11 @@ body {
     background-color: teal;
 }
 
-.main{
-   width: 300px;
-   height: 200px;
-   background-color: tomato;
-}
-
 .main-box{
     display: flex;
     flex-direction: row-reverse;
+}
+
+.box {
+    margin-right: 30px;
 }
