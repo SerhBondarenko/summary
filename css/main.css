@@ -1,8 +1,40 @@
+/*body text color*/
+/*secondary title color*/
+/*accent*/
+/*white color*/
 body {
-  background-color: teal;
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #212121;
 }
 
-.main-box {
+/*body.modal-open {
+  overflow: hidden;
+}*/
+/*Zero indentation of headings and paragraphs*/
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*responsive images*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*nullifying class*/
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,10 +42,48 @@ body {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+  -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.box {
-  margin-right: 30px;
+/*Main content section*/
+.main-content-section {
+  padding: 100px 90px;
+}
+
+/*about me section*/
+.about-me-section {
+  margin: 0 0 40px 0;
+}
+
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin-bottom: 0 0 25px 0;
+}
+
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
