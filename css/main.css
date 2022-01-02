@@ -84,8 +84,20 @@ img {
   color: #f0ebe7;
 }
 
+.my-projekts-section {
+  padding-left: 40px;
+}
+
 .main-content-title {
   color: #f0ebe7;
+}
+
+.my-work-experience-section {
+  padding-left: 40px;
+}
+
+.my-education-section {
+  padding-left: 40px;
 }
 
 .sidebar-section {
