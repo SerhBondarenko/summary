@@ -1,6 +1,7 @@
-$primary-text-color: #757575; /*body text color*/
+$primary-text-color: #aaa7a5; /*body text color*/
+$secondary-text-color: #f0ebe7;
 $title-text-color: #212121; /*secondary title color*/
-$accent-color: #2196f3; /*accent*/
+$accent-color: #383740; /*accent*/
 $white-color: #ffffff; /*white color*/
 
 
@@ -15,13 +16,13 @@ body {
 }*/
 
 /*Zero indentation of headings and paragraphs*/
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+//h1,
+//h2,
+//h3,
+//p {
+ // margin-top: 0;
+ // margin-bottom: 0;
+//}
 
 /*responsive images*/
 img {
@@ -42,43 +43,72 @@ display: flex;
 flex-direction: row-reverse;   
 width: 1200px;
 background-color: #fff;
-margin: 40px auto;
+margin: 15px auto;
 box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /*Main content section*/
 .main-content-section{
-    padding: 100px 90px;
+    padding: 0, 15px, 90px, 40px;
+    
 }
 
 /*about me section*/
 .about-me-section{
-    margin: 0 0 40px 0;
-}
-
-.about-me-profession{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    margin-bottom: 20px;
+  background-color: $accent-color;
+  border: 1px, solid, transparent;
+    border-top-right-radius: 30px;
+    margin: 0, 0, 40px, 0;
+    padding: 20px;
 }
 
 .about-me-name{
+  text-align: center;
+  margin-top: 0;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    color: #000;
-    margin-bottom: 0 0 25px 0;
+    color: $secondary-text-color;
 }
+
+
+.about-me-profession {
+   text-align: center;
+    color: $white-color;
+    margin-bottom: 20px;
+}
+
+.about-me-summury {
+color:  $secondary-text-color;
+margin-left: 40px;
+}
+
 
 .about-me-description{
     width: 400px;
+    margin-left: 40px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+    //font-size: 14px;
+    //line-height: 24px;
+    color:  $secondary-text-color;
 }
+//My projects section
+
+//.my-projekts-section {
+//}
+.main-content-title {
+  color:  $secondary-text-color;
+}
+
+//My work experience section
+//my education section
+//sidebar section
+.sidebar-section{
+  background-color: #f0ebe7;
+  width: 500px;
+}
+//contacts section
+//tech skill section
+//soft skills section
