@@ -96,7 +96,6 @@ text-transform: uppercase;
 }
 
 .about-me-description{
-    width: 400px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -128,10 +127,14 @@ padding: 20px 40px;
   margin-bottom: 10px;
 }
 
+.my-projekts-link{
+  color: $title-text-color;
+}
+
 //My work experience section
 
 .my-work-experience-section {
-  padding: 20px 40px;
+  padding: 0 40px 20px 40px;
 }
 .my-work-experience-position{
   margin-bottom: 10px;
@@ -142,15 +145,18 @@ padding: 20px 40px;
 .subtitle{
     font-size: 16px;
   line-height: 24px;
+  color: $title-text-color;
 }
 
 .my-work-experience-responsibilities {
+  padding: 0 0 0 18px;
    font-size: 14px;
   line-height: 24px;
 }
 
 .my-work-experience-responsibility{
   margin-bottom: 10px;
+ 
 }
 
 .my-work-experience-achievements {
