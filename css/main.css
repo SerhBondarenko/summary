@@ -12,10 +12,18 @@ body {
   overflow: hidden;
 }*/
 /*Zero indentation of headings and paragraphs*/
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*responsive images*/
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -35,32 +43,25 @@ img {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   width: 1200px;
-  background-color: #fff;
+  background-color: white;
   margin: 15px auto;
   -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /*Main content section*/
-.main-content-section {
-  padding: 0, 15px, 90px, 40px;
-}
-
 /*about me section*/
 .about-me-section {
   background-color: #383740;
   border: 1px, solid, transparent;
-  border-top-right-radius: 30px;
-  margin: 0, 0, 40px, 0;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 .about-me-name {
   text-align: center;
-  margin-top: 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 55px;
   color: #f0ebe7;
 }
@@ -73,31 +74,40 @@ img {
 
 .about-me-summury {
   color: #f0ebe7;
-  margin-left: 40px;
+  margin-bottom: 20px;
 }
 
 .about-me-description {
   width: 400px;
-  margin-left: 40px;
   font-style: normal;
   font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
   color: #f0ebe7;
 }
 
 .my-projekts-section {
-  padding-left: 40px;
+  padding: 20px 40px;
 }
 
 .main-content-title {
+  padding: 3px;
+  margin-bottom: 20px;
+  background-color: #383740;
   color: #f0ebe7;
 }
 
-.my-work-experience-section {
-  padding-left: 40px;
+.my-projekts-list {
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.my-education-section {
-  padding-left: 40px;
+.my-projekts-item {
+  margin-bottom: 10px;
+}
+
+.my-work-experience-section {
+  padding: 20px 40px;
 }
 
 .sidebar-section {
