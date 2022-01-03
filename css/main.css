@@ -110,6 +110,41 @@ img {
   padding: 20px 40px;
 }
 
+.my-work-experience-position {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.my-work-experience-responsibilities {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.my-work-experience-responsibility {
+  margin-bottom: 10px;
+}
+
+.my-work-experience-achievements {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.my-education-section {
+  padding: 20px 40px;
+}
+
+.my-work-experience-period {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
 .sidebar-section {
   background-color: #f0ebe7;
   width: 500px;
