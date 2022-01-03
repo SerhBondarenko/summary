@@ -75,18 +75,24 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     font-weight: bold;
     font-size: 40px;
     line-height: 55px;
+    text-transform: uppercase;
     color: $secondary-text-color;
+    padding-top: 50px;
 }
 
 .about-me-profession {
-   text-align: center;
+  padding-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
     color: $white-color;
-    margin-bottom: 20px;
+  
 }
 
 .about-me-summury {
-color:  $secondary-text-color;
 margin-bottom: 20px;
+color:  $secondary-text-color;
+text-transform: uppercase;
+
 }
 
 .about-me-description{
@@ -108,6 +114,7 @@ padding: 20px 40px;
   margin-bottom: 20px;
   background-color: $accent-color;
   color:  $secondary-text-color;
+  text-transform: uppercase;
 }
 
 

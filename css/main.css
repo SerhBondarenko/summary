@@ -72,18 +72,22 @@ p {
   font-weight: bold;
   font-size: 40px;
   line-height: 55px;
+  text-transform: uppercase;
   color: #f0ebe7;
+  padding-top: 50px;
 }
 
 .about-me-profession {
+  padding-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 20px;
 }
 
 .about-me-summury {
-  color: #f0ebe7;
   margin-bottom: 20px;
+  color: #f0ebe7;
+  text-transform: uppercase;
 }
 
 .about-me-description {
@@ -104,6 +108,7 @@ p {
   margin-bottom: 20px;
   background-color: #383740;
   color: #f0ebe7;
+  text-transform: uppercase;
 }
 
 .my-projekts-list {
