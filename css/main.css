@@ -22,7 +22,7 @@ p {
 
 /*responsive images*/
 .box {
-  background-image: url("/css/images/my_photo_1.jpg");
+  background-image: url("./css/images/my_photo_1.jpg");
   background-position: center;
   background-size: cover;
   margin: 0;
