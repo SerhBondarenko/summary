@@ -35,6 +35,7 @@ p {
    margin-bottom: 20px;;
    margin-left: auto;
    margin-right: auto;
+   margin: 20px;
    width:300px;
    height:300px;
    border-radius: 50%;
@@ -156,7 +157,6 @@ padding: 20px 40px;
 
 .my-work-experience-responsibility{
   margin-bottom: 10px;
- 
 }
 
 .my-work-experience-achievements {
@@ -165,9 +165,8 @@ padding: 20px 40px;
 }
 
 //my education section
-
 .my-education-section{
-   padding: 20px 40px;
+   padding: 0 40px 20px 40px;
 }
 
 .my-work-experience-period{
@@ -175,23 +174,34 @@ padding: 20px 40px;
   line-height: 24px;
   margin-bottom: 10px;
 }
-//sidebar section///////////////
+//sidebar section
 .sidebar-section{
   background-color: #f0ebe7;
   width: 500px;
 }
-/////////////contacts section/////////
 
-//.contacts-section{
- 
-//}
+.sidebar-content-title{
+ padding: 3px;
+  margin-bottom: 20px;
+  background-color: $accent-color;
+  color:  $secondary-text-color;
+  text-transform: uppercase;
+}
+//contacts section
+.contacts-section{
+  padding: 0 0 20px 0;
+}
 .contacts-list{
-    margin-bottom: 3px;
+  margin-bottom: 3px;
   font-size: 14px;
   line-height: 24px;
 }
 
 //tech skill section
+.tech-skills-section{
+   padding: 0 0 20px 0;
+}
+
 .tech-skills-list{
   margin-bottom: 3px;
   font-size: 14px;
@@ -199,6 +209,10 @@ padding: 20px 40px;
 }
 
 //soft skills section
+.soft-skills-section{
+   padding: 0 0 20px 0;
+}
+
 .soft-skills-list{
   margin-bottom: 3px;
   font-size: 14px;
@@ -206,6 +220,9 @@ padding: 20px 40px;
 }
 
 //language skills
+.language-skills-section{
+   padding: 0 0 20px 0;
+}
 .language-skills-list{
   margin-bottom: 3px;
   font-size: 14px;
