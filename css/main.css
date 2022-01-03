@@ -158,6 +158,30 @@ p {
   width: 500px;
 }
 
+.contacts-list {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tech-skills-list {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.soft-skills-list {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.language-skills-list {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
